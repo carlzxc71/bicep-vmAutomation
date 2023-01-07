@@ -18,8 +18,7 @@ $AzureContext = (Connect-AzAccount -Identity).context
 # set and store context
 $AzureContext = Set-AzContext -SubscriptionName $AzureContext.Subscription -DefaultProfile $AzureContext 
 
-# Stop the VM
-# Start-AzVM -ResourceGroupName $resourceGroupName -Name $vmName -Confirm:$false
+# Stop the VMs
 
 foreach($VM in $azureVMs){
     Stop-AzVM -ResourceGroupName $resourceGroupName -Name $VM -Confirm:$false

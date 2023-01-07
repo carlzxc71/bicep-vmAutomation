@@ -21,5 +21,5 @@ $AzureContext = Set-AzContext -SubscriptionName $AzureContext.Subscription -Defa
 # Stop the VMs
 
 foreach($VM in $azureVMs){
-    Stop-AzVM -ResourceGroupName $resourceGroupName -Name $VM -Confirm:$false
+    Stop-AzVM -ResourceGroupName $resourceGroupName -Name $VM -Confirm:$false -Force
 }

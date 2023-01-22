@@ -6,4 +6,4 @@ It deploys all required resources needed and comes with two powershell-scripts y
 
 For more information about the project you can visit my website where I have a post about implementing and managing this solution: 
 
-[Automate Azure VM uptime schedule with Azure Automation & Bicep](LINK HERE)
+[Automate Azure VM uptime schedule with Azure Automation & Bicep](https://www.lindbergtech.com/automate-azure-vm-uptime-schedule-with-azure-automation-bicep/)
